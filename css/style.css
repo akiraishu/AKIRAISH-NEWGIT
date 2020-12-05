@@ -8,7 +8,7 @@ Primary style
 }
 
 html {
-  font-size: 65.5%;
+  font-size: 75.5%;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
   background-color: #222;
   font-family: 'Bebas Neue', monospace;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ /* -moz-osx-font-smoothing: grayscale;*/
 }
 
 a {
@@ -608,17 +608,20 @@ Portfolio Projects
 
 .youtube {
   text-align:center;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
-.portfolio-image {
+.image-responsive {
   text-align: center;
   display: block;
   align-content: center;
 }
 
 .center {
-    max-width: 50%;
+    max-width: 80%;
+    min-width: 500px;
+    height: auto;
 }
 
 /* -------------------------------- 
