@@ -105,7 +105,7 @@ Portfolio Projects
   /* this is the 'X' icon - visible when a project has been selected */
   position: absolute;
   z-index: 2;
-  top:  40px;
+  top:  25%;
   right: 5%;
   /* replace text with image */
   color: transparent;
