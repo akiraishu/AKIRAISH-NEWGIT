@@ -56,6 +56,13 @@ Portfolio Navigation
   padding: .2rem;
 }
 
+.cd-wrapper {
+background-image: url(../img/background-2.gif);
+background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .cd-3d-portfolio-navigation h1 {
   font-size: 3rem;
   font-family: 'Bebas Neue', monospace;
@@ -74,7 +81,7 @@ Portfolio Navigation
   transition: all .2s;
 }
 .cd-3d-portfolio-navigation li a:hover {
-  background: #4c5b61;
+  background: #a62639;
   border-color: #72a987;
 }
 .cd-3d-portfolio-navigation li .selected {
